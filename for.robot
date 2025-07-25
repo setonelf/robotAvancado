@@ -83,5 +83,5 @@ Aritmético
 Intervalos específicos
     [Documentation]    Percorre de 0 até 30, pulando de 5 em 5
     FOR    ${index}    IN RANGE    0    31    5
-        Log    ${index}
+        Log To Console   ${index}
     END
